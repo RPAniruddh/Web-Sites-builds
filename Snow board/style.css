@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+    color: #193855;
+}
+
+body {
+    margin: 60px 70px;
+    background-image: url(./Assets/BG-Image.jpeg);
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-button-wrapper {
+    background-color: white;
+    display: flex;
+    gap: 30px;
+    padding: 15px 30px;
+    border-radius: 200px;
+    opacity: 75%;
+    backdrop-filter: blur(10px);
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero {
+    max-width: 500px;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 5.5rem;
+    line-height: 1.05;
+}
+
+.hero p {
+    margin-top: 17px;
+    font-weight: 500;
+}
+
+#hero-btn {
+    background-color: #ff36a6;
+    padding: 9px;
+    border-radius: 125px;
+    margin-top: 13px;
+    border: none;
+    font-weight: 500;
+}
+
+.products {
+    margin-top: 40px;
+}
+
+.card {
+    width: 222px;
+    background-color: white;
+    opacity: 90%;
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+}
+
+.card > img {
+    width: 206px;
+    margin-top: 6px;
+    margin-left: 10px;
+    border-radius: 16px;
+}
+
+.card button {
+    background-color: #ff36a6;
+    border-radius: 50%;
+    padding: 8px;
+    border: none;
+
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8px;
+    padding-bottom: 7px;
+}
+
+
+p {
+    font-weight: 500;
+}
+.products {
+    display: flex;
+    gap: 20px;
+    /* grid-template-columns: repeat(3, 1fr); */
+}
